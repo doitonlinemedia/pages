@@ -11,9 +11,8 @@
             "email": "tim@doitonlinemedia.nl"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "0.0.1",
     "require": {
-        "doitonlinemedia/brickle": "master-dev"
     },
     "autoload": {
         "psr-4": {
