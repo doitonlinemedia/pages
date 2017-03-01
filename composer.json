@@ -18,7 +18,7 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
+        "post-package-install": [
             "php artisan doitonlinemedia:pages:install"
         ]
     }
