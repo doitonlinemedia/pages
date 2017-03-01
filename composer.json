@@ -1,0 +1,28 @@
+{
+    "name": "doitonlinemedia/pages",
+    "license": "MIT",
+    "fludol": {
+        "autoload": true,
+        "provider": "Doitonlinemedia\\Pages\\Providers\\PagesServiceProvider"
+    },
+    "authors": [
+        {
+            "name": "Doit Online Media",
+            "email": "tim@doitonlinemedia.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "doitonlinemedia/brickle": "master-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doitonlinemedia\\Pages\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "php artisan doitonlinemedia:pages:install"
+        ]
+    }
+}
