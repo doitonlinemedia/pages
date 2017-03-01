@@ -11,7 +11,7 @@
             "email": "tim@doitonlinemedia.nl"
         }
     ],
-    "minimum-stability": "0.0.1",
+    "minimum-stability": "stable",
     "require": {
     },
     "autoload": {
